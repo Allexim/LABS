@@ -7,20 +7,20 @@ public class Compute {
     public int summation(int[] array_new){
         this.int_Array=array_new;
 
-        int sum = 0; // initialize sum
+        int sum_1 = 0; // initialize sum
         int k;
         for (k = 0; k < array_new.length; k++)
-            sum += array_new[k];
+            sum_1 += array_new[k];
 
-        return sum;
+        return sum_1;
     }
 
     public int sumArray(int[] intArray){
-        int sum = 0; // initialize sum
+        int sum_2 = 0; // initialize sum
         int k;
         for (k = 0; k < intArray.length; k++)
-            sum += intArray[k];
-        return sum;
+            sum_2 += intArray[k];
+        return sum_2;
 
 
     }

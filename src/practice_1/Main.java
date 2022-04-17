@@ -43,7 +43,7 @@ public class Main {
         System.out.println("");
 
         Compute compute = new Compute();
-        System.out.println("Summary = " + compute.sumArray(array_new));
+        System.out.println("The sum of numbers = " + compute.summation(array_new));
 
 
 
