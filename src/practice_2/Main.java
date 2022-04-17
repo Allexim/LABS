@@ -13,29 +13,35 @@ public class Main {
         //       input();
 
         int comp_number = random();
+        System.out.println("Check for computer-generated number: " + comp_number);
 
         System.out.println("You have 3 tries to guess the number\n");
 
 
-        for (int i = 0; i < 3; i++) {
+        int k=3;
+        boolean match=false;
+        do{
 
-            int humNumber = scan();
+                int humNumber = scan();
 
-            if (humNumber == comp_number) {
-                System.out.println("You win");
+                if (humNumber == comp_number) {
+                    System.out.println("You win");
+                    match = true;
 
-            } else if (humNumber < comp_number) {
-                System.out.println("You have lost");
+                } else if (humNumber < comp_number) {
+                    System.out.println("You have lost");
+                    match = false;
 
-            } else {
-                System.out.println("Draw");
+                } else {
+                    System.out.println("Draw");
+                    match = false;
 
-            }
-        }
+                }
+                k--;
 
 
 
-
+        }while(!match && k>=1);
 
 
 
