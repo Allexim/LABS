@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
+
 
         System.out.println("The programme of computing of the sum of 3 integer numbers\n");
 
@@ -19,8 +19,6 @@ public class Main {
         int sum_of_int;
 
 
-
-
         // accessing the elements of the specified array
         for (int i = 0; i < array_new.length; i++) {
             System.out.print("Input #" + (i+1) + ": ");
@@ -30,12 +28,7 @@ public class Main {
 
         }
 
-        int sum = 0; // initialize sum
-        int k;
 
-        // Iterate through all elements and add them to sum
-        for (k = 0; k < array_new.length; k++)
-            sum += array_new[k];
 
         System.out.println("");
         printArray(array_new);
@@ -48,13 +41,9 @@ public class Main {
 
 
         System.out.println("");
-        System.out.println("The sum of numbers = "+sum);
 
         Compute compute = new Compute();
-
-
-
-                System.out.println("Summary = " + compute.sumArray(array_new));
+        System.out.println("Summary = " + compute.sumArray(array_new));
 
 
 
