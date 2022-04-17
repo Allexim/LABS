@@ -10,10 +10,7 @@ public class Main {
 
         System.out.println("Guess the number (with cycles)\n");
 
-        //       input();
-
         int comp_number = random();
-        System.out.println("Check for computer-generated number: " + comp_number);
 
         System.out.println("You have 3 tries to guess the number\n");
 
@@ -39,13 +36,7 @@ public class Main {
                 }
                 k--;
 
-
-
         }while(!match && k>=1);
-
-
-
-
 
 
     }
@@ -65,7 +56,6 @@ public class Main {
         return human_number;
 
     }
-
 
 
 }
