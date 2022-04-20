@@ -14,11 +14,28 @@ public class Main {
         // declares an Array of integers.
         int[][] matrix2d;
         System.out.println();
+
         System.out.print("Enter number of rows: ");
         int row_number=String_to_Integer.conversion_to_integer();                //rows
         System.out.println();
         System.out.print("Enter number of columns: ");
         int col_number=String_to_Integer.conversion_to_integer();                //columns
+
+        boolean rows_amount = true;
+
+        if (row_number > 4) {
+            System.out.println("Введённое число рядов слишком большое.\n Расчёт выйдет за пределы типа данных long\n");
+            System.out.println("Просьба ввести число рядов, не превышающее 4-х");
+            row_number = String_to_Integer.conversion_to_integer();
+        }
+
+        while (row_number > 4)  {
+
+            System.out.println("Вы опять ввели большее число рядов.\n Хватит меня дурачить!!!");
+            System.out.println("Введи число, не превышающее 4-х:");
+            row_number = String_to_Integer.conversion_to_integer();
+        }
+
 
 
 // allocating memory for the elements of array.
