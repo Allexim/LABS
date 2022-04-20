@@ -21,7 +21,7 @@ public class Main {
         System.out.print("Enter number of columns: ");
         int col_number=String_to_Integer.conversion_to_integer();                //columns
 
-        boolean rows_amount = true;
+
 
         if (row_number > 4) {
             System.out.println("Введённое число рядов слишком большое.\n Расчёт выйдет за пределы типа данных long\n");
