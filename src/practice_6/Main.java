@@ -25,20 +25,20 @@ public class Main {
         Student student = new Student();
         System.out.print("\n The stipend rate for the student: " + student.getScholarship(x));
 
-
-//        ArrayList<Student> university = new ArrayList<>();
-//
-//        university.add(new Student());
-//        university.add(new Aspirant());
+        System.out.println();
 
 
-//        for (Student  : university) {
-//            university.
-//        }
+        //BEGIN of task #5
+       ArrayList<Student> university = new ArrayList<>();
 
-//        Aspirant postgraduate=new Aspirant();
-//       postgraduate.Aspirant();
+        university.add(new Student());
+        university.add(new Aspirant());
 
+
+        for (Student  stud_count : university) {
+            stud_count.getScholarship(x);
+        }
+        //END of task #5
 
 
     }

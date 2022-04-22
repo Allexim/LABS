@@ -10,6 +10,7 @@ class Student {
     //test for correct invokation
     void Student(){
         System.out.println("This is student method inside of Student class");
+        //all the required methods could be transmitted through...
 
     }
 
@@ -22,29 +23,6 @@ class Student {
         return stipend;
     }
 
-//    String getFirstName() {
-//        return firstName;
-//    }
-//
-//    void setFirstName(String firstName) {
-//        this.firstName = firstName;
-//    }
-//
-//    String getLastName() {
-//        return lastName;
-//    }
-//
-//    void setLastName(String lastName) {
-//        this.lastName = lastName;
-//    }
-//
-//     String getGroup() {
-//        return group;
-//    }
-//
-//    void setGroup(String group) {
-//        this.group = group;
-//    }
 
     double getAverageMark() {
         return averageMark;
